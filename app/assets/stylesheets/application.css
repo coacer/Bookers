@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  color: #333;
+}
+
+/* top */
+.top-headline {
+  font-size: 25px;
+}
+
+.top-content {
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.top-content > a {
+  color: #777;
+}
+
+/* index */
+.index-table {
+  padding-left: 50px;
+}
+
+.index-table td, .index-table th {
+  padding-right: 50px;
+}
+
+.index-table a {
+  padding-right: 10px;
+}
+
+/* show */
+.success {
+  color: green;
+}
+
+
